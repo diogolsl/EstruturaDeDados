@@ -3,7 +3,7 @@ public class Principal {
 		Lista objLista = new Lista();
 		
 		// primeiro teste
-		/*objLista.imprimir();
+		objLista.imprimir();
 		objLista.excluir(1);
 		objLista.inserir(1);
 		objLista.inserir(2);
@@ -14,7 +14,7 @@ public class Principal {
 		objLista.excluir(1);
 		objLista.excluir(3);
 		objLista.excluir(5);
-		objLista.imprimir();*/
+		objLista.imprimir();
 		
 		// segundo teste
 		for (int i = 0; i < 10000000 ; i++) {
