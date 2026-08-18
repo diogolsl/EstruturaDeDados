@@ -23,11 +23,13 @@ public class Principal {
 			} else if (opcao == 2) {
 				System.out.print("Digite um numero para excluir: ");
 				objLista.excluir(leitor.nextInt());
+				objLista.imprimir();
 			} else if (opcao == 3) {
 				objLista.imprimir();
 			} else if (opcao == 4) {
 				for ( int i = 0; i < 100000000; i++) {
 					objLista.inserir(i);
+					objLista.imprimir();
 				}
 			}
 		}
