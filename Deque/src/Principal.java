@@ -16,9 +16,7 @@ public class Principal extends Thread {
 		new Principal(objDeque, false).start();
 		new Principal(objDeque, true).start();
 		
-		while (Thread.activeCount() > 0) {
-			
-		}
+		while (Thread.activeCount() > 0) {}
 	}
 	
 	// metodo de execucao paralela da classe
